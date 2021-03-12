@@ -1,0 +1,44 @@
+.counter {
+  background-color: black;
+  justify-content: center;
+  color: white;
+}
+
+.display {
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 200px;
+}
+
+.even {
+  color: red;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.odd {
+  color: blue;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.wrapper {
+  display: flex;
+  padding: 20px;
+}
+
+.item, button {
+  padding: 20px;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  margin: 0px 10px;
+  font-size: 30px;
+  line-height: 0;
+}
